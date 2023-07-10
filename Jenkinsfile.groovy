@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Build-test') {
             steps {
                 sh 'echo "hello world" > output.txt'
             }
